@@ -27,8 +27,8 @@ class CourseAdmin(admin.ModelAdmin):
 class LessonAdmin(admin.ModelAdmin):
     list_display = ['title']
 
-class LessonAdmin(admin.ModelAdmin):
-    list_display = ['title']
+# class LessonAdmin(admin.ModelAdmin):
+#     list_display = ['title']
 
 class QuestionAdmin(admin.ModelAdmin):
     inlines = [ ChoiceInline]
