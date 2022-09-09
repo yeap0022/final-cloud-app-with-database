@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse
     routes:
-      - route: yeapyewming.us-south.mybluemix.net
+      - route: ericyy.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: yeapyewming.us-south.mybluemix.net/static
+      - route: ericyy.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
